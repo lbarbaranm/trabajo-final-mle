@@ -1,0 +1,5 @@
+import joblib
+
+trained_model = model.fit(X_train, y_train)
+
+joblib.dump(trained_model, 'models/trained_model.pkl')
